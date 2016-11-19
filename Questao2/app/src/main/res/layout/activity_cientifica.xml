@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cientifica"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fernandobarros.questao2.CientificaActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cientifica_edt_dado"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cientifica_edt_dado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cientifica_btn_log" />
+
+    <Button
+        android:text="raiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cientifica_edt_dado"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/cientifica_btn_raiz" />
+
+    <Button
+        android:text="sen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cientifica_btn_log"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/cientifica_btn_sen" />
+
+    <Button
+        android:text="cos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cientifica_btn_sen"
+        android:layout_alignRight="@+id/cientifica_btn_exp"
+        android:layout_alignEnd="@+id/cientifica_btn_exp"
+        android:id="@+id/cientifica_btn_cos" />
+
+    <Button
+        android:text="tan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cientifica_btn_cos"
+        android:layout_alignLeft="@+id/cientifica_btn_raiz"
+        android:layout_alignStart="@+id/cientifica_btn_raiz"
+        android:id="@+id/cientifica_btn_tan" />
+
+    <Button
+        android:text="exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cientifica_btn_exp"
+        android:layout_below="@+id/cientifica_edt_dado"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cientifica_btn_cos"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cientificar_btn_limpar" />
+
+</RelativeLayout>

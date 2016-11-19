@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questao2</string>
+    <string name="perfil_escolha">Selecione o perfil</string>
+    <string name="perfil_tradicional">Tradicional</string>
+    <string name="perfil_cientifica">Cienttifico</string>
+    <string name="title_activity_tradicional">TradicionalActivity</string>
+</resources>
